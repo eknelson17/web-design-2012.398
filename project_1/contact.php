@@ -80,7 +80,7 @@
 			  <input type='submit' />
 			  </form>";
 			  */
-			  echo "<form action='index.html' method='POST' enctype='multipart/form-data'>
+			  echo "<form action='contact.php' method='POST' enctype='multipart/form-data'>
 						<table>
 							<tr>
 								<td><label for='from_name'>Name: </label></td>
