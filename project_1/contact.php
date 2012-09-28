@@ -24,6 +24,15 @@
 		</nav>
 
 		<article>
+			<h2>Contact Me</h2>
+
+			<p>
+				Use the form below to shoot me an email about anything -- networking, 
+				job opporturnities, or just looking for a new friend. I'm game for 
+				whatever...just please don't spam me!Alternatively, you can 
+				look me up on any of the social networks or hosting sites linked 
+				to on my home page.
+			</p>
 
 			<?php
 			/*
@@ -53,7 +62,7 @@
 				$name = $_REQUEST['from_name'] ;
 				$subject = $_REQUEST['subject'] ;
 				$message = wordwrap($_REQUEST['message'], 70); ;
-				mail('eknelson17@gmail.com', 
+				mail('website@eknelson17.com', 
 				  	$subject,
 				  	$message, 
 				  	'From: ' . $name . ' <' . $email . '>');
