@@ -60,17 +60,17 @@
 			  $email = $_REQUEST['from_email'] ;
 			  $name = $_REQUEST['from_name'] ;
 			  $subject = $_REQUEST['subject'] ;
-			  $message = $_REQUEST['message'] ;
-			  mail("eknelson17@gmail.com", 
+			  $message = wordwrap($_REQUEST['message'], 70); ;
+			  mail('eknelson17@gmail.com', 
 			  		$subject,
 			  		$message, 
-			  		"From: \"" . $name . "\" <" . $email . ">");
+			  		'From: ' . $name . ' <' . $email . '>');
 			  echo "Thank you for using our mail form";
 			  }
 			else
 			//if "email" is not filled out, display the form
 			  {
-			  /*	
+			  /*
 			  echo "<form method='post' action='mailform.php'>
 			  Email: <input name='email' type='text' /><br />
 			  Subject: <input name='subject' type='text' /><br />
