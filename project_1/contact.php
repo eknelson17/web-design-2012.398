@@ -26,6 +26,7 @@
 		<article>
 
 			<?php
+			/*
 			function spamcheck($field) {
 				//filter_var() sanitizes the e-mail
 				//address using FILTER_SANITIZE_EMAIL
@@ -39,25 +40,25 @@
 					return FALSE;
 				}
 			}
-
+			*/
 			//if "email" is filled out, send email
 			if (isset($_REQUEST['from_email'])) {
 				//check if the email address is invalid
-			  	$mailcheck = spamcheck($_REQUEST['email']);
-			  	if ($mailcheck==FALSE) {
-			    	echo "Invalid input";
-			    } else {
-				  	//send email
-					$email = $_REQUEST['from_email'] ;
-					$name = $_REQUEST['from_name'] ;
-					$subject = $_REQUEST['subject'] ;
-					$message = wordwrap($_REQUEST['message'], 70); ;
-					mail('eknelson17@gmail.com', 
-					  	$subject,
-					  	$message, 
-					  	'From: ' . $name . ' <' . $email . '>');
-					echo "Thank you!";
-				}
+//			  	$mailcheck = spamcheck($_REQUEST['email']);
+//			  	if ($mailcheck==FALSE) {
+//			    	echo "Invalid input";
+//			    } else {
+			  	//send email
+				$email = $_REQUEST['from_email'] ;
+				$name = $_REQUEST['from_name'] ;
+				$subject = $_REQUEST['subject'] ;
+				$message = wordwrap($_REQUEST['message'], 70); ;
+				mail('eknelson17@gmail.com', 
+				  	$subject,
+				  	$message, 
+				  	'From: ' . $name . ' <' . $email . '>');
+				echo "Thank you!";
+//				}
 			//if "email" is not filled out, display the form
 			} else { 
 				echo "<form action='contact.php' method='POST' enctype='multipart/form-data'>
