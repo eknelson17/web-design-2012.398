@@ -65,7 +65,7 @@
 			  		$subject,
 			  		$message, 
 			  		'From: ' . $name . ' <' . $email . '>');
-			  echo "Thank you for using our mail form";
+			  echo "Thank you!";
 			  }
 			else
 			//if "email" is not filled out, display the form
