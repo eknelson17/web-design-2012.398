@@ -53,20 +53,24 @@
 -->
 
 			<?php
-			if (isset($_REQUEST['email']))
+			if (isset($_REQUEST['from_email']))
 			//if "email" is filled out, send email
 			  {
 			  //send email
-			  $email = $_REQUEST['email'] ;
+			  $email = $_REQUEST['from_email'] ;
+			  $name = $_REQUEST['from_name'] ;
 			  $subject = $_REQUEST['subject'] ;
 			  $message = $_REQUEST['message'] ;
-			  mail("eknelson17@gmail.com", $subject,
-			  $message, "From:" . $email);
+			  mail("eknelson17@gmail.com", 
+			  		$subject,
+			  		$message, 
+			  		"From: \"" . $name . "\" <" . $email . ">");
 			  echo "Thank you for using our mail form";
 			  }
 			else
 			//if "email" is not filled out, display the form
 			  {
+			  /*	
 			  echo "<form method='post' action='mailform.php'>
 			  Email: <input name='email' type='text' /><br />
 			  Subject: <input name='subject' type='text' /><br />
@@ -75,6 +79,34 @@
 			  </textarea><br />
 			  <input type='submit' />
 			  </form>";
+			  */
+			  echo "<form action="index.html" method="POST" enctype="multipart/form-data">
+						<table>
+							<tr>
+								<td><label for="from_name">Name: </label></td>
+								<td><input type="text" name="from_name" id="from_name" /></td>
+							</tr>
+
+							<tr>
+								<td><label for="from_email">Email Address: </label></td>
+								<td><input type="text" name="from_email" id="from_email" /></td>
+							</tr>
+
+							<tr>
+								<td><label for="subject">Subject: </label></td>
+								<td><input type="text" name="subject" id="subject" /></td>
+							</tr>
+
+							<tr>
+								<td><label for="message">Message: </label></td>
+								<td><textarea type="text" name="message" id="message" rows="3" cols="30"></textarea></td>
+							</tr>
+
+							<tr>
+								<td><input type="submit" value="Submit" /></td>
+							</tr>
+						</table>
+					</form>";
 			  }
 			?>
 		
