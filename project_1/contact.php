@@ -27,9 +27,9 @@
 
 			<?php
 			//if "email" is filled out, send email
-			if (isset($_REQUEST['from_email']) &&
-				isset($_REQUEST['from_name']) &&
-				isset($_REQUEST['subject']) &&
+			if (isset($_REQUEST['from_email']) and
+				isset($_REQUEST['from_name']) and
+				isset($_REQUEST['subject']) and
 				isset($_REQUEST['message'])) {
 			  	//send email
 				$email = $_REQUEST['from_email'] ;
