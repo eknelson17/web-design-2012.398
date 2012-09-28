@@ -29,12 +29,14 @@
 			<p>
 				Use the form below to shoot me an email about anything -- networking, 
 				job opporturnities, or just looking for a new friend. I'm game for 
-				whatever...just please don't spam me!Alternatively, you can 
+				whatever...just please don't spam me! Alternatively, you can 
 				look me up on any of the social networks or hosting sites linked 
 				to on my home page.
 			</p>
 
 			<?php
+			// Commented out php is for security in email sending
+			// It currently isn't working
 			/*
 			function spamcheck($field) {
 				//filter_var() sanitizes the e-mail
@@ -62,7 +64,7 @@
 				$name = $_REQUEST['from_name'] ;
 				$subject = $_REQUEST['subject'] ;
 				$message = wordwrap($_REQUEST['message'], 70); ;
-				mail('website@eknelson17.com', 
+				mail('website@eknelson17.com', 							// This email address doesn't go anywhere yet...need to get Google apps up on my domain.
 				  	$subject,
 				  	$message, 
 				  	'From: ' . $name . ' <' . $email . '>');
