@@ -10,6 +10,7 @@
 	<body>
 
 		<header>
+			<a href="index.html"><img src="images/Logo.png"></a>
 			<h1>Emma Kay Nelson</h1>
 			<h2>software engineer with a flare for design.</h2>
 		</header>
