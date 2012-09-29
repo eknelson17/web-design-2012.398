@@ -24,7 +24,7 @@
 		</nav>
 
 		<article>
-			<h2>Contact Me</h2>
+			<h3>Contact Me</h3>
 
 			<p>
 				Use the form below to shoot me an email about anything -- networking, 
@@ -35,9 +35,7 @@
 			</p>
 
 			<?php
-			// Commented out php is for security in email sending
-			// It currently isn't working
-			/*
+			
 			function spamcheck($field) {
 				//filter_var() sanitizes the e-mail
 				//address using FILTER_SANITIZE_EMAIL
@@ -51,14 +49,14 @@
 					return FALSE;
 				}
 			}
-			*/
+			
 			//if "email" is filled out, send email
 			if (isset($_REQUEST['from_email'])) {
 				//check if the email address is invalid
-//			  	$mailcheck = spamcheck($_REQUEST['email']);
-//			  	if ($mailcheck==FALSE) {
-//			    	echo "Invalid input";
-//			    } else {
+			  	$mailcheck = spamcheck($_REQUEST['from_email']);
+			  	if ($mailcheck==FALSE) {
+			    	echo "Invalid input";
+			    } else {
 			  	//send email
 				$email = $_REQUEST['from_email'] ;
 				$name = $_REQUEST['from_name'] ;
@@ -69,7 +67,7 @@
 				  	$message, 
 				  	'From: ' . $name . ' <' . $email . '>');
 				echo "Thank you!";
-//				}
+				}
 			//if "email" is not filled out, display the form
 			} else { 
 				echo "<form action='contact.php' method='POST' enctype='multipart/form-data'>
