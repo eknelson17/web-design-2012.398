@@ -9,7 +9,7 @@
 
 	<body>
 
-		<header>
+		<header id="top">
 			<a href="index.html"><img src="images/Logo.png"></a>
 			<h1>Emma Kay Nelson</h1>
 			<h2>software engineer with a flare for design.</h2>
@@ -32,8 +32,8 @@
 				Use the form below to shoot me an email about anything -- networking, 
 				job opporturnities, or just looking for a new friend. I'm game for 
 				whatever...just please don't spam me! Alternatively, you can 
-				look me up on any of the social networks or hosting sites linked 
-				to on my home page.
+				look me up on any of the social networks or hosting sites listed 
+				below.
 			</p>
 
 			<?php
@@ -104,8 +104,26 @@
 		
 		</article>
 
+		<aside>
+			<h4>Social Media:</h4>
+
+			<ul>
+				<li><a href="https://twitter.com/eknelson17">Twitter</a></li>
+				<li><a href="https://plus.google.com/106143154686103965900/posts">Google+</a></li>
+				<li><a href="https://twitter.com/eknelson17">Linkedin</a></li>
+			</ul>
+
+			<h4>Code Hosting:</h4>
+
+			<ul>
+				<li><a href="http://code.google.com/u/eknelson17/">Google Code</a></li>
+				<li><a href="https://bitbucket.org/eknelson17">Bitbucket</a></li>
+				<li><a href="https://github.com/eknelson17">Github</a></li>
+			</ul>
+		</aside>
+
 		<footer>
-			
+			<p>&copy; 2012 Emma Nelson | <a href="#top">Bact to Top</a></p>
 		</footer>
 
 	</body>
