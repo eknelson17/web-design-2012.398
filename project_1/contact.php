@@ -105,7 +105,7 @@
 		</article>
 
 		<aside>
-			<h4>Social Media:</h4>
+			<h6>Social Media:</h6>
 
 			<ul>
 				<li><a href="https://twitter.com/eknelson17">Twitter</a></li>
@@ -113,7 +113,7 @@
 				<li><a href="https://twitter.com/eknelson17">Linkedin</a></li>
 			</ul>
 
-			<h4>Source Code Hosting:</h4>
+			<h6>Source Code Hosting:</h6>
 
 			<ul>
 				<li><a href="http://code.google.com/u/eknelson17/">Google Code</a></li>
