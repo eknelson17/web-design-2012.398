@@ -64,7 +64,7 @@
 				$name = $_REQUEST['from_name'] ;
 				$subject = $_REQUEST['subject'] ;
 				$message = wordwrap($_REQUEST['message'], 70); ;
-				mail('website@eknelson17.com', 							// This email address doesn't go anywhere yet...need to get Google apps up on my domain.
+				mail('emma+website@eknelson17.com', 							// This email address doesn't go anywhere yet...need to get Google apps up on my domain.
 				  	$subject,
 				  	$message, 
 				  	'From: ' . $name . ' <' . $email . '>');
