@@ -91,7 +91,7 @@
 
 						<tr>
 							<td><label for='message'>Message: </label></td>
-							<td><textarea type='text' name='message' id='message' rows='3' cols='30'></textarea></td>
+							<td><textarea name='message' id='message' rows='3' cols='30'></textarea></td>
 						</tr>
 
 						<tr>
