@@ -5,7 +5,17 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Lorem Ipsum</title>
 
+		<!-- external CSS -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
+
+		<!-- embedded CSS -->
+		<style type="text/css">
+			footer {
+				background-color: #000000;
+				color: #ffffff;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -13,13 +23,19 @@
 		<header>
 			<h1>Lorem Ipsum</h1>
 
-			<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-			<p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+			<div id="quote">
+				<p>
+					"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+
+					"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+				</p>
+			</div>
+			
 		</header>
 
 		<article>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tortor non arcu imperdiet accumsan ac vel turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida dignissim iaculis. Sed accumsan consequat nunc a vulputate. Integer laoreet felis quis magna feugiat facilisis. Suspendisse eleifend volutpat nibh quis tristique. Suspendisse dignissim nisl a felis mollis porta. Sed sagittis ipsum metus, a eleifend lacus. Praesent sed urna porta purus laoreet tristique egestas ultrices felis.
+				<span class="ipsum">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed at tortor non arcu imperdiet accumsan ac vel turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida dignissim iaculis. Sed accumsan consequat nunc a vulputate. Integer laoreet felis quis magna feugiat facilisis. Suspendisse eleifend volutpat nibh quis tristique. Suspendisse dignissim nisl a felis mollis porta. Sed sagittis ipsum metus, a eleifend lacus. Praesent sed urna porta purus laoreet tristique egestas ultrices felis.
 			</p>
 
 			<p>
@@ -42,7 +58,7 @@
 				<h2>Bacon Ipsum</h2>
 
 				<p>
-					Bacon ipsum dolor sit amet dolore deserunt in tongue. Short loin enim elit venison boudin. Et ex ad spare ribs in esse ullamco drumstick flank shoulder meatloaf cupidatat dolor commodo chicken. Flank duis laboris, aliqua tri-tip bacon spare ribs enim laborum dolore. Velit deserunt ullamco, pork loin turducken pork adipisicing do hamburger turkey cillum short loin tempor in aute. Pancetta ball tip tongue exercitation andouille non, magna jowl id kielbasa. Drumstick beef ribs aute frankfurter elit cupidatat.
+					<span class="ipsum">Bacon ipsum</span> dolor sit amet dolore deserunt in tongue. Short loin enim elit venison boudin. Et ex ad spare ribs in esse ullamco drumstick flank shoulder meatloaf cupidatat dolor commodo chicken. Flank duis laboris, aliqua tri-tip bacon spare ribs enim laborum dolore. Velit deserunt ullamco, pork loin turducken pork adipisicing do hamburger turkey cillum short loin tempor in aute. Pancetta ball tip tongue exercitation andouille non, magna jowl id kielbasa. Drumstick beef ribs aute frankfurter elit cupidatat.
 				</p>
 
 				<p>
@@ -57,7 +73,9 @@
 		</article>
 
 		<footer>
-			<p>Generated 5 paragraphs, 470 words, 3176 bytes of Lorem Ipsum by <a href="http://www.lipsum.com/">lipsum.com</a>.</p>
+			<p>
+				Generated 5 paragraphs, 470 words, 3176 bytes of <span class="ipsum">Lorem Ipsum</span> by <a href="http://www.lipsum.com/">lipsum.com</a>.
+			</p>
 		</footer>
 
 	</body>
