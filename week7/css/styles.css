@@ -1,0 +1,26 @@
+/* CSS reset */
+* {
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+header {
+	background-image:url('../images/gradient.png');
+
+}
+
+h1 {
+	font-size: 36px;
+	font-family: 'Lucida Calligraphy', cursive;	
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Lucida Calligraphy', cursive;
+	margin: 0 auto 0 auto 0;
+}
+
+#quote {
+	font-style: italic;
+}

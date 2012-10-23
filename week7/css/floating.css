@@ -1,0 +1,12 @@
+/* CSS reset */
+
+#sect1 {
+	float: left;
+	width: 49.5%;
+	padding-right: 1%;
+}
+
+#sect2 {
+	float: left;
+	width: 49.5%;
+}
