@@ -3,6 +3,7 @@
 #sect1 {
 	width: 70%;
 	margin: 0 auto 0 auto;
+/*	-webkit-columns: 3; */
 }
 
 #sect1_h {
