@@ -1,16 +1,20 @@
-/* CSS reset */
+/* CSS for fixed position columns */
+
+#sect {
+	position: relative;
+	height: 325px;
+}
 
 #sect1 {
-	padding: 5px;
+	position: absolute;
+	width: 50%;
+	top: 0px;
+	left: 0px;
 }
 
-#sect1-1 {
-	float: left;
-	width: 49.5%;
-	padding-right: 1%;
-}
-
-#sect1-2 {
-	float: left;
-	width: 49.5%;
+#sect2 {
+	position: absolute;
+	width: 50%;
+	top: 0px;
+	right: 0px;
 }
