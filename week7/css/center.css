@@ -1,9 +1,11 @@
 /* CSS for auto margin columns */
 
 #sect1 {
-
+	width: 70%;
+	margin: 0 auto 0 auto;
 }
 
-#sect2 {
-
+#sect1_h {
+	width: 25%;
+	margin: 0 auto 0 auto;
 }
