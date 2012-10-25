@@ -1,12 +1,20 @@
-/* CSS reset */
+/* CSS for floating columns */
 
 #sect1 {
 	float: left;
-	width: 49.5%;
+	width: 48.5%;
 	padding-right: 1%;
+	padding-left: 1%;
 }
 
 #sect2 {
 	float: left;
-	width: 49.5%;
+	width: 48.5%;
+	padding-right: 1%;
+}
+
+.sect_h {
+	float: left;
+	width: 30%;
+	padding: 0% 35% 0% 35%;
 }
