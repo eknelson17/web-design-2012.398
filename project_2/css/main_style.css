@@ -55,6 +55,7 @@ h2 {
 nav {
 	float: left;
 	width: 100%;
+	margin: 0 auto 0 auto;
 	background-color: #4D4D4D;
 	border-bottom: 5px solid #3FA9F5;
 	box-shadow-top: 0px -5px;
@@ -62,7 +63,6 @@ nav {
 
 nav ul {
 	list-style-type: none;
-	margin: 0 auto 0 auto;
 }
 
 nav ul li {
@@ -100,8 +100,7 @@ body {
 	margin: 1.5625%;
 
 	color: #E6E7E8;
-	background-color: #4D4D4D;
-	opacity: 0.9;
+	background-color: rgba(88,88,91,0.9);
 	padding: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -111,13 +110,21 @@ body {
 }
 
 .main h3{
-	font-size: 24px;
+	font-size: 30px;
 }
 
 .main p {
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	padding: 5px 0px;
+}
+
+.main img {
+	opacity: 1.0;
+}
+
+.link {
+	color: #3FA9F5;
 }
 
 aside {

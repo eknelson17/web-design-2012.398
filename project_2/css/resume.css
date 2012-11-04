@@ -3,6 +3,20 @@
 	
 }
 
+#resume {
+	position: relative;
+	background-color: white;
+	color: black;
+}
+
 #resume_aside {
-	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#resume_main {
+	position: absolute;
+	left: 175px;
+	top: 0px;
 }
