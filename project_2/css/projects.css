@@ -1,18 +1,21 @@
 /* control projects specific layout */
-.main {
-	
-}
-
 #projects_nav {
 	border: none;
 	background-color: rgba(88,88,91,0);
+	margin: 30px auto 0px auto;
+}
+
+#projects_nav ul li {
+	padding: 0;
+	margin: 10px;
 }
 
 #projects_nav ul li a {
 	background-color: #3FA9F5;
 	color: #4D4D4D;
 	border: 5px solid #8CC641;
-	margin: 10px 10px;
+	padding: 10px;
+	margin: 20px 0px;
 }
 
 #projects_nav ul li a:hover {
@@ -31,7 +34,6 @@ h4 {
 h5 {
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
 	font-size: 22px;
-	
 	padding: 5px 0px 5px 0px;
 }
 
