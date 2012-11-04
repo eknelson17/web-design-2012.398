@@ -21,7 +21,7 @@ header {
 	background-image: url('../images/header_background.png');
 
 	width: 100%;
-	float: left;
+
 	height: 130px;
 }
 
@@ -53,12 +53,13 @@ h2 {
 }
 
 nav {
-	float: left;
 	width: 100%;
-	margin: 0 auto 0 auto;
+	height: 59px;
+	display: block;
 	background-color: #4D4D4D;
 	border-bottom: 5px solid #3FA9F5;
 	box-shadow-top: 0px -5px;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -66,18 +67,20 @@ nav ul {
 }
 
 nav ul li {
-	display: inline;	
+	display: block;
+	float: left;
+	padding: 15px 24px 15px 24px;
 }
 
 nav ul li a {
-	float: left;
-	padding: 15px 24px 15px 24px;
+
+	/*padding: 15px 24px 15px 24px;*/
 	text-decoration: none;
 	color: #BBBDC0;
 	font-size: 24px;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 	color: #4D4D4D;
 	background-color: #3FA9F5;
 }
