@@ -10,7 +10,8 @@
 /* css common for all pages */
 
 .wrapper {
-
+	background-image: url('../images/background.png');
+	background-color: white;
 }
 
 html, body {
@@ -89,11 +90,11 @@ nav ul li:hover {
 }
 
 article {
-	background-color: #4D4D4D 50%;
+	background-color: #4D4D4D;
 }
 
 body {
-	background-image: url('../images/background.png');
+	background-color: #4D4D4D;
 }
 
 .main {
