@@ -156,3 +156,7 @@ footer p a {
 	text-decoration: none;
 	color: #BBBDC0;
 }
+
+td {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
