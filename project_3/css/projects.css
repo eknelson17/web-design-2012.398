@@ -1,0 +1,67 @@
+/* control projects specific layout */
+#projects_nav {
+	border: none;
+	background-color: rgba(88,88,91,0);
+	margin: 30px auto 0px auto;
+}
+
+#projects_nav ul li {
+	padding: 0;
+	margin: 10px;
+}
+
+#projects_nav ul li a {
+	background-color: #3FA9F5;
+	color: #4D4D4D;
+	border: 5px solid #8CC641;
+	padding: 10px;
+	margin: 20px 0px;
+}
+
+#projects_nav ul li a:hover {
+	color: #8CC641;
+	background-color: #4D4D4D;
+	border: 5px solid #3FA9F5;
+}
+
+h4 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-style: italic;
+	padding: 8px 0px 1px 0px;
+}
+
+h5 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	padding: 5px 0px 5px 0px;
+}
+
+.main ul {
+	list-style-type: none;
+}
+
+.main ul li {
+	float: left;
+	padding: 5px;
+}
+
+.main ul li img {
+	height: 250px;
+	width: 250px;
+}
+
+.main img {
+	margin: 5px auto;
+	display: block;
+	border: 5px solid #4D4D4D;
+}
+
+.shirt {
+	display: block;
+	text-align: center;
+}
+
+.shirt img {
+	display: inline;
+}

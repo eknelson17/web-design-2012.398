@@ -1,0 +1,66 @@
+/* control projects specific layout */
+.main {
+	
+}
+
+#resume {
+	background-color: white;
+	color: black;
+	margin: 0 auto;
+	padding: 5%;
+	font-family: "Gill Sans", Helvetica, sans-serif;
+}
+
+#resume_aside {
+	float: left;
+	min-width: 180px;
+	width: 30%;
+	margin: 0;
+}
+
+#resume_aside img {
+	border: 5px solid black;
+}
+
+#resume_aside h3 {
+	font-size: 24px;
+	padding: 10px 10px; 
+}
+
+h5 {
+	font-size: 12px;
+	padding: 8px 8px 0px 0px; 
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+#resume_main {
+	float: left;
+	width: 70%;
+}
+
+#resume_main h4 {
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+#resume_main p {
+	font-size: 14px;
+	padding: 0px;
+}
+
+#edu_extra {
+	padding-left: 30px;
+	font-size: 10px;
+}
+
+ul {
+	padding-left: 18px;
+}
+
+.ul_a {
+	padding-left: 30px;
+}
