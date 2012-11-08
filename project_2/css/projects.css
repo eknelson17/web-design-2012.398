@@ -56,3 +56,12 @@ h5 {
 	display: block;
 	border: 5px solid #4D4D4D;
 }
+
+.shirt {
+	display: block;
+	text-align: center;
+}
+
+.shirt img {
+	display: inline;
+}
