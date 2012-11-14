@@ -33,7 +33,15 @@ header {
 
 header a {
 	float: left;
-	padding: 10px;
+}
+
+#logo {
+	display: block;
+	width: 178px;
+	height: 120px;
+	background-image: url("../images/Logo.png");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
 }
 
 .title {
@@ -138,33 +146,34 @@ aside ul {
 	list-style-type: none;
 }
 
+.soc {
+	display: block;
+	min-height: 90px;
+	min-width: 90px;
+	height: 90px;
+	width: 90px;
+	background-repeat: no-repeat;
+	background-position: 2.5px 2.5px;
+}
+
 .twitter {
-	min-height: 80px;
-	min-width: 80px;
-	height: 80px;
-	width: 80px;
 	background-image: url('../images/twitter-logo.png');
 }
 
 .google_plus {
-	height: 80px;
-	width: 80px;
 	background-image: url('../images/google+_logo.png');
 }
 
 .linkedin {
-	height: 80px;
-	width: 80px;
 	background-image: url('../images/linkedin.png');
 }
 
 .tumblr {
-	height: 80px;
-	width: 80px;
 	background-image: url('../images/tumblr.png');
 }
 
 .google_code {
+	display: block;
 	background-image: url('../images/google_code.png');
 }
 
