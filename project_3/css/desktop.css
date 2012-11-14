@@ -37,6 +37,19 @@ h2 {
 	padding-left: 15px;
 }
 
+h4 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-style: italic;
+	padding: 8px 0px 1px 0px;
+}
+
+h5 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	padding: 5px 0px 5px 0px;
+}
+
 nav {
 	height: 59px;
 }

@@ -1,28 +1,16 @@
 /* control projects specific layout */
 #projects_nav {
-	margin: 20px auto 0px auto;
-	height: 150px;
+	height: 120px;	
 }
 
-#projects_nav ul li a {
-	margin: 0;
+#projects_nav ul li {
+	margin: 20px 10px;
 }
 
-h4 {
-	font-family: Tahoma, Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-style: italic;
-	padding: 8px 0px 1px 0px;
-}
-
-h5 {
-	font-family: Tahoma, Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	padding: 5px 0px 5px 0px;
-}
-
+/*
 .main ul {
 	list-style-type: none;
+	height: 500px;
 }
 
 .main ul li {
@@ -48,4 +36,4 @@ h5 {
 
 .shirt img {
 	display: inline;
-}
+}*/
