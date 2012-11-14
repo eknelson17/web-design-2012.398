@@ -5,7 +5,7 @@
 }
 
 header {
-	background-image: url('../images/header_background.png');
+	background-image: url('../images/desktop/header_background.png');
 	height: 134px;
 }
 
@@ -17,7 +17,7 @@ header a {
 	display: block;
 	width: 178px;
 	height: 120px;
-	background-image: url("../images/Logo.png");
+	background-image: url("../images/desktop/Logo.png");
 	background-repeat: no-repeat;
 	background-position: 10px 10px;
 }
@@ -83,7 +83,7 @@ aside {
 	margin-bottom: 1.5625%;
 }
 
-aside a p {
+aside a span {
 	display: none;
 }
 
@@ -98,32 +98,32 @@ aside a p {
 }
 
 .twitter {
-	background-image: url('../images/twitter-logo.png');
+	background-image: url('../images/desktop/twitter-logo.png');
 }
 
 .google_plus {
-	background-image: url('../images/google+_logo.png');
+	background-image: url('../images/desktop/google+_logo.png');
 }
 
 .linkedin {
-	background-image: url('../images/linkedin.png');
+	background-image: url('../images/desktop/linkedin.png');
 }
 
 .tumblr {
-	background-image: url('../images/tumblr.png');
+	background-image: url('../images/desktop/tumblr.png');
 }
 
 .google_code {
 	display: block;
-	background-image: url('../images/google_code.png');
+	background-image: url('../images/desktop/google_code.png');
 }
 
 .bitbucket {
-	background-image: url('../images/bitbucket.png');
+	background-image: url('../images/desktop/bitbucket.png');
 }
 
 .github {
-	background-image: url('../images/github.png');
+	background-image: url('../images/desktop/github.png');
 }
 
 .push {

@@ -1,0 +1,51 @@
+/* control projects specific layout */
+#projects_nav {
+	margin: 20px auto 0px auto;
+	height: 150px;
+}
+
+#projects_nav ul li a {
+	margin: 0;
+}
+
+h4 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	padding: 8px 0px 1px 0px;
+}
+
+h5 {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 5px 0px 5px 0px;
+}
+
+.main ul {
+	list-style-type: none;
+}
+
+.main ul li {
+	float: left;
+	padding: 5px;
+}
+
+.main ul li img {
+	height: 250px;
+	width: 250px;
+}
+
+.main img {
+	margin: 5px auto;
+	display: block;
+	border: 5px solid #4D4D4D;
+}
+
+.shirt {
+	display: block;
+	text-align: center;
+}
+
+.shirt img {
+	display: inline;
+}

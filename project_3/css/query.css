@@ -1,7 +1,7 @@
 
 /* Phone */
-@import url("phone.css") only screen and (max-width:400px);
+@import url("phone.css") only screen and (max-width:530px);
 /* Tablet */
-@import url("tablet.css") only screen and (min-width:401px) and (max-width:800px);
+@import url("tablet.css") only screen and (min-width:531px) and (max-width:860px);
 /* Desktop */
-@import url("desktop.css") only screen and (min-width:801px);
+@import url("desktop.css") only screen and (min-width:861px);
