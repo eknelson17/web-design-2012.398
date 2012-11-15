@@ -77,12 +77,15 @@ nav ul li a {
 
 aside {
 	height: 80px;
-	padding: 1.5%;
 	width: 100%;
 	margin: 0 auto;
 }
 
 aside a span {
+	display: none;
+}
+
+aside h6 {
 	display: none;
 }
 

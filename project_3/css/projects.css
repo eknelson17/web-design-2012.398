@@ -41,7 +41,8 @@
 }
 
 .main img {
-	margin: 5px auto;
+	margin: 0 auto;
+	display: block;
 	border: 5px solid #4D4D4D;
 }
 
