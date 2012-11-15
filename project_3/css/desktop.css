@@ -55,12 +55,10 @@ nav ul {
 }
 
 nav ul li {
+	display: inline-block;
 	float: none;
-	min-height: 59px;
-	height: 59px !important; 
-	min-width: 120px;
-
-	display: inline;
+	padding: 0;
+	margin: 15px 0px auto;
 }
 
 nav ul li a {
