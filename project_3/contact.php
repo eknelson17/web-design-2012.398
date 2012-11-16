@@ -136,11 +136,11 @@
 				<div class="push"></div>
 			</div>
 
-			<footer>
-				<p>&copy; 2012 Emma Nelson | <a href="#top">Back to Top</a></p>
-			</footer>
-			
 		</div>
+		
+		<footer>
+			<p>&copy; 2012 Emma Nelson | <a href="#top">Back to Top</a></p>
+		</footer>
 
 	</body>
 

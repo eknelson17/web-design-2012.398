@@ -114,3 +114,20 @@ footer p a {
 td {
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
 }
+
+#warning {
+	width: 100%;
+	height: 208px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#warning img {
+	float: left;
+}
+
+#warning p {
+	text-align: left;
+	padding-left: 220px;
+	padding-top: 7.75%;
+}
